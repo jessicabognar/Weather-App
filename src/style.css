@@ -32,6 +32,7 @@ li::first-letter {
 
 .emoji {
   font-size: 60px;
+  padding-bottom: 30px;
 }
 
 .current-weather {
@@ -67,4 +68,12 @@ li::first-letter {
 .week-forcast {
   display: block;
   margin: 0 auto;
+}
+
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
